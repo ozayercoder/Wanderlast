@@ -8,10 +8,10 @@ import { Menu, User, X } from "lucide-react";
 
 const links = [
   { label: "Home", href: "/" },
-  { label: "Destinations", href: "#" },
-  { label: "My Bookings", href: "#" },
-  { label: "Admin", href: "#" },
-];
+  { label: "Destinations", href: "/destinations" },
+  { label: "Add Destination", href: "/add-destination" },
+  { label: "My Bookings", href: "/my-bookings" },
+  ];
 
 export function Navbar() {
   const pathname = usePathname();
