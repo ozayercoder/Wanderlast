@@ -5,7 +5,7 @@ import { playfair } from "@/lib/fonts";
 
 export function Cta() {
   return (
-    <section className="relative flex min-h-[380px] items-center justify-center px-6 sm:min-h-[440px]">
+    <section className="relative flex min-h-95 items-center justify-center px-6 sm:min-h-110">
       <Image
         src="/images/CTA.png"
         alt=""

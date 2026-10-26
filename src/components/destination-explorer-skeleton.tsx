@@ -3,7 +3,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 function DestinationCardSkeleton() {
   return (
     <div className="flex flex-col gap-4 rounded-xl border border-border bg-card p-4">
-      <Skeleton className="aspect-[4/3] w-full rounded-xl" />
+      <Skeleton className="aspect-4/3 w-full rounded-xl" />
       <div className="flex flex-col gap-2">
         <Skeleton className="h-4 w-24" />
         <div className="flex items-baseline justify-between gap-3">

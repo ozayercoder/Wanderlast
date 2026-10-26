@@ -61,7 +61,7 @@ const socials = [
 export function Footer() {
   return (
     <footer className="bg-neutral-950 text-white">
-      <div className="mx-auto max-w-[1256px] px-6 pb-8 pt-20">
+      <div className="mx-auto max-w-314 px-6 pb-8 pt-20">
         <h2 className={`${playfair.className} text-6xl leading-none font-bold lg:text-7xl`}>
           Wanderlast
         </h2>
@@ -77,7 +77,7 @@ export function Footer() {
             <p className="mt-3 text-[13px] text-neutral-400">
               Subscribe for exclusive travel deals and inspiration.
             </p>
-            <div className="relative mt-4 max-w-[255px]">
+            <div className="relative mt-4 max-w-64">
               <input
                 type="email"
                 placeholder="Enter email"

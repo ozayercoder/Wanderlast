@@ -68,12 +68,12 @@ export default function AddDestinationPage() {
   }
 
   return (
-    <div className="mx-auto w-full max-w-[1256px] px-6 py-12">
+    <div className="mx-auto w-full max-w-314 px-6 py-12">
       <h1 className={`${playfair.className} text-3xl md:text-4xl`}>
         Add New Travel Package
       </h1>
 
-      <Card className="mx-auto mt-12 w-full max-w-[560px] gap-0 p-6 shadow-sm">
+      <Card className="mx-auto mt-12 w-full max-w-140 gap-0 p-6 shadow-sm">
         <CardContent className="px-0">
           <form onSubmit={onSubmit} className="flex flex-col gap-4">
             <Field>
@@ -175,7 +175,7 @@ export default function AddDestinationPage() {
                 placeholder="Describe the travel experience..."
                 value={form.description}
                 onChange={handleChange("description")}
-                className="min-h-[120px] rounded-md bg-muted/50"
+                className="min-h-30 rounded-md bg-muted/50"
               />
             </Field>
 

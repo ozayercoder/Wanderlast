@@ -45,7 +45,7 @@ export function Hero() {
             <ArrowRight className="size-4" />
           </Link>
           <Link
-            href="#"
+            href="/destinations"
             className="inline-flex h-10 items-center rounded-sm bg-white/50 px-6 text-sm font-semibold tracking-wide text-white uppercase hover:bg-white/60"
           >
             View Destination

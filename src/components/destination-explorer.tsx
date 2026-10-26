@@ -111,7 +111,7 @@ export function DestinationExplorer({
             key={destination._id}
             className="group gap-4! overflow-hidden rounded-xl border border-border bg-card p-4! shadow-none ring-0! transition-shadow hover:shadow-md"
           >
-            <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-muted">
+            <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-muted">
               {destination.imageUrl ? (
                 <Image
                   src={destination.imageUrl}

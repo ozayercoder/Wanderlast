@@ -220,7 +220,7 @@ export function EditDestination({
               placeholder="Describe the travel experience..."
               value={form.description}
               onChange={handleChange("description")}
-              className="min-h-[120px] rounded-md bg-muted/50"
+              className="min-h-30 rounded-md bg-muted/50"
             />
           </Field>
 

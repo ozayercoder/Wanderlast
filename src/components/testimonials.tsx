@@ -44,7 +44,7 @@ const testimonials = [
 export function Testimonials() {
   return (
     <section className="py-16">
-      <div className="mx-auto max-w-[1256px] px-6">
+      <div className="mx-auto max-w-314 px-6">
         <Carousel opts={{ align: "start", loop: true }} className="w-full">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
@@ -70,7 +70,7 @@ export function Testimonials() {
           <CarouselContent className="mt-8">
             {testimonials.map((testimonial) => (
               <CarouselItem key={testimonial.name} className="lg:basis-1/2">
-                <div className="flex flex-col gap-5 bg-white p-5 shadow-xs sm:h-[248px] sm:flex-row">
+                <div className="flex flex-col gap-5 bg-white p-5 shadow-xs sm:h-62 sm:flex-row">
                   <div className="flex flex-1 flex-col">
                     <blockquote
                       className={`${playfair.className} text-[17px] leading-[1.55] text-foreground`}
@@ -91,7 +91,7 @@ export function Testimonials() {
                     alt={testimonial.name}
                     width={218}
                     height={264}
-                    className="aspect-[218/264] w-full shrink-0 rounded-sm object-cover sm:h-[208px] sm:w-[168px]"
+                    className="aspect-218/264 w-full shrink-0 rounded-sm object-cover sm:h-52 sm:w-42"
                   />
                 </div>
               </CarouselItem>

@@ -79,7 +79,7 @@ export function Navbar() {
         <Link href="#" className="hidden hover:opacity-70 lg:flex">
           Login
         </Link>
-        <Link href="#" className="font-bold hover:opacity-70">
+        <Link href="/signup" className="font-bold hover:opacity-70">
           Sign Up
         </Link>
       </div>

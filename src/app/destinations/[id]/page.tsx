@@ -71,7 +71,7 @@ export default async function DestinationDetailsPage({
   ];
 
   return (
-    <div className="mx-auto w-full max-w-[1256px] px-6 py-12">
+    <div className="mx-auto w-full max-w-314 px-6 py-12">
       <div className="flex flex-wrap items-center justify-between gap-4">
         <Link
           href="/destinations"
@@ -93,7 +93,7 @@ export default async function DestinationDetailsPage({
         </div>
       </div>
 
-      <div className="relative mt-6 aspect-[4/3] overflow-hidden rounded-xl bg-muted md:aspect-[16/6]">
+      <div className="relative mt-6 aspect-4/3 overflow-hidden rounded-xl bg-muted md:aspect-16/6">
         {data.imageUrl ? (
           <Image
             src={data.imageUrl}

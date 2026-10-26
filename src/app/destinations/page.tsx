@@ -5,7 +5,7 @@ import { DestinationList } from "./destination-list";
 
 export default function DestinationPage() {
   return (
-    <div className="mx-auto w-full max-w-[1256px] px-6 py-12">
+    <div className="mx-auto w-full max-w-314 px-6 py-12">
       <h1 className={`${playfair.className} text-4xl font-medium md:text-5xl`}>
         Explore All Destinations
       </h1>
